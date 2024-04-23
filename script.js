@@ -77,6 +77,19 @@ var available_models = {
             "https://media.roboflow.com/homepage/Retail/Screenshot_2023-02-15_at_9.49.03_AM_Medium.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1676541028405"
         ],
         "model": null
+    },
+    "game-detection": {
+        "name": "Chess Game",
+        "version": 2,
+        "confidence": 0.5,
+        "video": "https://media.roboflow.com/homepage/Logistics/Screen_Recording_2023-02-15_at_11.36.30_AM.mov?ik-sdk-version=javascript-1.4.3&updatedAt=1676479651726",
+        "imageGrid": [
+            "https://media.roboflow.com/homepage/Logistics/pexels-fakhri-ailatat-6585817_Medium.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1676540925200",
+            "https://media.roboflow.com/homepage/Logistics/pexels-zeka-alrizki-12779104_Medium.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1676540925006",
+            "https://media.roboflow.com/homepage/Logistics/pexels-frans-van-heerden-1624695_Medium.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1676540924972",
+            "https://media.roboflow.com/homepage/Logistics/pexels-freestocksorg-122164_Medium.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1676540924810"
+        ],
+        "model": null
     }
 };
 
