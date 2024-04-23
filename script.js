@@ -90,12 +90,12 @@ for (var item in available_models) {
     model_select.add(option);
 }
 
-var current_model_name = "microsoft-coco";
-const API_KEY = "rf_U7AD2Mxh39N7jQ3B6cP8xAyufLH3";
+var current_model_name = "game-detection";
+const API_KEY = "rf_hRx58xkHFxSSOzHr7l9zKpovBRY2";
 const DETECT_API_KEY = "4l5zOVomQmkAqlTJPVKN";
 const CAMERA_ACCESS_URL = "https://uploads-ssl.webflow.com/5f6bc60e665f54545a1e52a5/63d40cd1de273045d359cf9a_camera-access2.png";
 const LOADING_URL = "https://uploads-ssl.webflow.com/5f6bc60e665f54545a1e52a5/63d40cd2210b56e0e33593c7_loading-camera2.gif";
-var current_model_version = 9;
+var current_model_version = 2;
 var webcamLoop = false;
 
 // when user scrolls past #model-select, stop webcam
@@ -143,7 +143,7 @@ async function getModel() {
     });
 
     model.configure({
-        threshold: available_models[current_model_name]["confidence"],
+        threshold: .5,//available_models[current_model_name]["confidence"],
         max_objects: 50
     });
 
